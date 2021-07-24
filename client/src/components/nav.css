@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Nav {
+    margin: 0.5rem;
+    width: 5rem;
+    height: 95vh;
+    border-radius: 15px;
+    background: lightblue;
+}
+.navIcons {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.navIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.navIcon:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+.icons {
+    color: black;
+    font-size: large;
+}

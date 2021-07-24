@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sideTab {
+    margin: 0.5rem;
+    width: 23vw;
+    height: 95vh;
+    border-radius: 30px;
+    background: lightblue;
+}

@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.centerConsole {
+    margin: 0.5rem;
+    width: 65vw;
+    height: 95vh;
+    border-radius: 30px;
+    background: lightblue;
+}
