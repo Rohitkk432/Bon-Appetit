@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.homeCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homeContent {
+    height: 12rem;
+    width: 80%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin: 1rem;
+}
+.foodCategories {
+    height: 15rem;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.fcategory {
+    height: 13rem;
+    width: 20%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: 0.5rem;
+}
+.expandbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+}
+.expand {
+    font-size: x-large;
+    margin: 10px;
+}
+.expandbtn:hover {
+    background-color: aliceblue;
+}

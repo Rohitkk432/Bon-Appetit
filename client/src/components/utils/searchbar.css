@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.searchbar {
+    height: 2rem;
+    width: 60%;
+    margin: 1rem;
+    background-color: aliceblue;
+}

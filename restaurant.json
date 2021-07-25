@@ -1,0 +1,1001 @@
+[
+    {
+        "Name":"Pizza Wings",
+        "Location":"Vasco",
+        "categories":["Pizza","Italian","Fast food"],
+        "TimeOpening":"11:00:00",
+        "TimeClosing":"23:00:00",
+        "Rating":4,
+        "Pricing":"250 for one.",
+        "Menu":{
+            "Veg Pizzas":{
+                "Gourmet Pizza":{
+                    "Aromatic Paneer (Medium)":{
+                        "Description":"Royal Flavours of Panner, with Red Paprika, Onion, Capsicum, with Aromatic Sauces.",
+                        "Crust Pizza":{
+                            "Hand Toast":515,
+                            "Buttery Base":545,
+                            "Wheat Base":545,
+                            "Pan Base":555,
+                            "Signature Crust":575,
+                            "Cheese Burst":610,
+                            "Double Cheese Burst":625,
+                            "Double Twist":630
+                        },
+                        "Extra Cheese":75,
+                        "Extra Topping Veg":{
+                            "Capsicum":30,
+                            "Jalapeno":30,
+                            "Mushroom":30,
+                            "Onion":30,
+                            "Pineapple":30,
+                            "Red Peper":30,
+                            "Tomato":30,
+                            "Green Chilli":30,
+                            "Corn":30
+                        }
+                    },
+                    "Bbq Feast (Medium)":{
+                        "Description":"Seasoned Onion &     Capsicum, Red Paprika & Onion.",
+                        "Crust Pizza":{
+                            "Hand Toast":515,
+                            "Buttery Base":545,
+                            "Wheat Base":545,
+                            "Pan Base":555,
+                            "Signature Crust":575,
+                            "Cheese Burst":610,
+                            "Double Cheese Burst":625,
+                            "Double Twist":630
+                        },
+                        "Extra Cheese":75,
+                        "Extra Topping Veg":{
+                            "Capsicum":30,
+                            "Jalapeno":30,
+                            "Mushroom":30,
+                            "Onion":30,
+                            "Pineapple":30,
+                            "Red Peper":30,
+                            "Tomato":30,
+                            "Green Chilli":30,
+                            "Corn":30
+                        }
+                    },
+                    "Aromatic Paneer (Regular)":{
+                        "Description":"Royal Flavours of Panner, with Red Paprika, Onion, Capsicum, with Aromatic Sauces.",
+                        "Crust Pizza":{
+                            "Hand Toast":259,
+                            "Buttery Base":279,
+                            "Pan Base":284,
+                            "Signature Crust":299,
+                            "Cheese Burst":324,
+                            "Ultimate Cheese Burst":324
+                        },
+                        "Extra Cheese":45,
+                        "Extra Topping Veg":{
+                            "Jalapeno":20,
+                            "Mushroom":20,
+                            "Onion":20,
+                            "Pineapple":20,
+                            "Red Peper":20,
+                            "Tomato":20,
+                            "Green Chilli":20,
+                            "Corn":20
+                        }
+                    },
+                    "Bbq Feast (Regular)":{
+                        "Description":"Seasoned Onion & Capsicum, Red Paprika & Onion.",
+                        "Crust Pizza":{
+                            "Hand Toast":259,
+                            "Buttery Base":279,
+                            "Pan Base":284,
+                            "Signature Crust":299,
+                            "Cheese Burst":324,
+                            "Ultimate Cheese Burst":324
+                        },
+                        "Extra Cheese":45,
+                        "Extra Topping Veg":{
+                            "Jalapeno":20,
+                            "Mushroom":20,
+                            "Onion":20,
+                            "Pineapple":20,
+                            "Red Peper":20,
+                            "Tomato":20,
+                            "Green Chilli":20,
+                            "Corn":20
+                        }
+                    }
+                },
+                "Amature Pizza":{
+                    "Smoky Zesty (Medium)":{
+                        "Description":"Onion, Capsicum, Tomato, Jalapeno, Zesty Sauce.",
+                        "Crust Pizza":{
+                            "Hand Toast":439,
+                            "Buttery Base":469,
+                            "Wheat Base":469,
+                            "Pan Base":479,
+                            "Signature Crust":499,
+                            "Cheese Burst":534,
+                            "Double Cheese Burst":549,
+                            "Double Twist":554
+                        },
+                        "Extra Cheese":75,
+                        "Extra Topping Veg":{
+                            "Capsicum":30,
+                            "Jalapeno":30,
+                            "Mushroom":30,
+                            "Onion":30,
+                            "Pineapple":30,
+                            "Red Peper":30,
+                            "Tomato":30,
+                            "Green Chilli":30,
+                            "Corn":30
+                        }
+                    }
+                    ,"Tandoori Paneer (Medium)":{
+                        "Description":"Tandoori Cheese and Sauce, Paneer, Fresh Capsicum, Red Paprika.",
+                        "Crust Pizza":{
+                            "Hand Toast":439,
+                            "Buttery Base":469,
+                            "Wheat Base":469,
+                            "Pan Base":479,
+                            "Signature Crust":499,
+                            "Cheese Burst":534,
+                            "Double Cheese Burst":549,
+                            "Double Twist":554
+                        },
+                        "Extra Cheese":75,
+                        "Extra Topping Veg":{
+                            "Capsicum":30,
+                            "Jalapeno":30,
+                            "Mushroom":30,
+                            "Onion":30,
+                            "Pineapple":30,
+                            "Red Peper":30,
+                            "Tomato":30,
+                            "Green Chilli":30,
+                            "Corn":30
+                        }
+                    },
+                    "Smoky Zesty (Regular)":{
+                        "Description":"Onion, Capsicum, Tomato, Jalapeno, Zesty Sauce.",
+                        "Crust Pizza":{
+                            "Hand Toast":219,
+                            "Buttery Base":259,
+                            "Pan Base":244,
+                            "Signature Crust":259,
+                            "Cheese Burst":284,
+                            "Ultimate Cheese Burst":284
+                        },
+                        "Extra Cheese":45,
+                        "Extra Topping Veg":{
+                            "Jalapeno":20,
+                            "Mushroom":20,
+                            "Onion":20,
+                            "Pineapple":20,
+                            "Red Peper":20,
+                            "Tomato":20,
+                            "Green Chilli":20,
+                            "Corn":20
+                        }
+                    },
+                    "Tandoori Paneer (Regular)":{
+                        "Description":"Tandoori Cheese and Sauce, Paneer, Fresh Capsicum, Red Paprika.",
+                        "Crust Pizza":{
+                            "Hand Toast":219,
+                            "Buttery Base":259,
+                            "Pan Base":244,
+                            "Signature Crust":259,
+                            "Cheese Burst":284,
+                            "Ultimate Cheese Burst":284
+                        },
+                        "Extra Cheese":45,
+                        "Extra Topping Veg":{
+                            "Jalapeno":20,
+                            "Mushroom":20,
+                            "Onion":20,
+                            "Pineapple":20,
+                            "Red Peper":20,
+                            "Tomato":20,
+                            "Green Chilli":20,
+                            "Corn":20
+                        }
+                    }
+                },
+                "Basic Concepts":{
+                    "Cheese & Golden Corn (Medium)":{
+                        "Description":"sweet corn + Mozzarella Cheese.",
+                        "Crust Pizza":{
+                            "Hand Toast":379,
+                            "Buttery Base":409,
+                            "Wheat Base":409,
+                            "Pan Base":419,
+                            "Signature Crust":439,
+                            "Cheese Burst":474,
+                            "Double Cheese Burst":489,
+                            "Double Twist":554
+                        },
+                        "Extra Cheese":75,
+                        "Extra Topping Veg":{
+                            "Capsicum":30,
+                            "Jalapeno":30,
+                            "Mushroom":30,
+                            "Onion":30,
+                            "Pineapple":30,
+                            "Red Peper":30,
+                            "Tomato":30,
+                            "Green Chilli":30,
+                            "Corn":30
+                        }
+                    },
+                    "Queen Marghrita (Medium)":{
+                        "Description":"Loaded with Cheese",
+                        "Crust Pizza":{
+                            "Hand Toast":379,
+                            "Buttery Base":409,
+                            "Wheat Base":409,
+                            "Pan Base":419,
+                            "Signature Crust":439,
+                            "Cheese Burst":474,
+                            "Double Cheese Burst":489,
+                            "Double Twist":554
+                        },
+                        "Extra Cheese":75,
+                        "Extra Topping Veg":{
+                            "Capsicum":30,
+                            "Jalapeno":30,
+                            "Mushroom":30,
+                            "Onion":30,
+                            "Pineapple":30,
+                            "Red Peper":30,
+                            "Tomato":30,
+                            "Green Chilli":30,
+                            "Corn":30
+                        }
+                    },
+                    "Cheese & Golden Corn (Regular)":{
+                        "Description":"sweet corn + Mozzarella Cheese.",
+                        "Crust Pizza":{
+                            "Hand Toast":164,
+                            "Buttery Base":184,
+                            "Pan Base":189,
+                            "Signature Crust":204,
+                            "Cheese Burst":229,
+                            "Ultimate Cheese Burst":229
+                        },
+                        "Extra Cheese":45,
+                        "Extra Topping Veg":{
+                            "Jalapeno":20,
+                            "Mushroom":20,
+                            "Onion":20,
+                            "Pineapple":20,
+                            "Red Peper":20,
+                            "Tomato":20,
+                            "Green Chilli":20,
+                            "Corn":20
+                        }
+                    },
+                    "Queen Marghrita (Regular)":{
+                        "Description":"Loaded with Cheese",
+                        "Crust Pizza":{
+                            "Hand Toast":164,
+                            "Buttery Base":184,
+                            "Pan Base":189,
+                            "Signature Crust":204,
+                            "Cheese Burst":229,
+                            "Ultimate Cheese Burst":229
+                        },
+                        "Extra Cheese":45,
+                        "Extra Topping Veg":{
+                            "Jalapeno":20,
+                            "Mushroom":20,
+                            "Onion":20,
+                            "Pineapple":20,
+                            "Red Peper":20,
+                            "Tomato":20,
+                            "Green Chilli":20,
+                            "Corn":20
+                        }
+                    }
+                }
+            },
+            "Non-veg Pizza":{
+                "Non-veg Delight":{
+                    "Chicken King (Medium)":{
+                        "Description":"Barbeque Fillet, Spicy Lemon Chicken Fillet, Fresh Tomato, Crisp Onion, Sweet Corn.",
+                        "Crust Pizza":{
+                            "Hand Toast":441,
+                            "Buttery Base":471,
+                            "Wheat Base":471,
+                            "Pan Base":481,
+                            "Signature Crust":501,
+                            "Cheese Burst":536,
+                            "Double Cheese Burst":551,
+                            "Double Twist":556
+                        },
+                        "Extra Cheese":75,
+                        "Extra Topping Veg":{
+                            "Barbeque Chicken":55,
+                            "Spicy Chicken":55,
+                            "Capsicum":30,
+                            "Jalapeno":30,
+                            "Mushroom":30,
+                            "Onion":30,
+                            "Pineapple":30,
+                            "Red Peper":30,
+                            "Tomato":30,
+                            "Corn":30
+                        }
+                    },
+                    "Chicken Tandoori (Medium)":{
+                        "Description":"Tandoori Chicken, Jalapeno, Green Chilli, Fresh Tomato.",
+                        "Crust Pizza":{
+                            "Hand Toast":441,
+                            "Buttery Base":471,
+                            "Wheat Base":471,
+                            "Pan Base":481,
+                            "Signature Crust":501,
+                            "Cheese Burst":536,
+                            "Double Cheese Burst":551,
+                            "Double Twist":556
+                        },
+                        "Extra Cheese":75,
+                        "Extra Topping Veg":{
+                            "Barbeque Chicken":55,
+                            "Spicy Chicken":55,
+                            "Capsicum":30,
+                            "Jalapeno":30,
+                            "Mushroom":30,
+                            "Onion":30,
+                            "Pineapple":30,
+                            "Red Peper":30,
+                            "Tomato":30,
+                            "Corn":30
+                        }
+                    },
+                    "Texas Heat (Medium)":{
+                        "Description":"Chicken Strips, Jalapeno, Crisp Onion, Gr.Pepper",
+                        "Crust Pizza":{
+                            "Hand Toast":441,
+                            "Buttery Base":471,
+                            "Wheat Base":471,
+                            "Pan Base":481,
+                            "Signature Crust":501,
+                            "Cheese Burst":536,
+                            "Double Cheese Burst":551,
+                            "Double Twist":556
+                        },
+                        "Extra Cheese":75,
+                        "Extra Topping Veg":{
+                            "Barbeque Chicken":55,
+                            "Spicy Chicken":55,
+                            "Capsicum":30,
+                            "Jalapeno":30,
+                            "Mushroom":30,
+                            "Onion":30,
+                            "Pineapple":30,
+                            "Red Peper":30,
+                            "Tomato":30,
+                            "Corn":30
+                        }
+                    },
+                    "Chicken King (Regular)":{
+                        "Description":"Barbeque Fillet, Spicy Lemon Chicken Fillet, Fresh Tomato, Crisp Onion, Sweet Corn.",
+                        "Crust Pizza":{
+                            "Hand Toast":219,
+                            "Buttery Base":239,
+                            "Pan Base":244,
+                            "Signature Crust":259,
+                            "Cheese Burst":284,
+                            "Ultimate Cheese Burst":284
+                        },
+                        "Extra Cheese":45,
+                        "Extra Topping Veg":{
+                            "Barbeque Chicken":25,
+                            "Spicy Chicken":25,
+                            "Jalapeno":20,
+                            "Mushroom":20,
+                            "Onion":20,
+                            "Pineapple":20,
+                            "Red Peper":20,
+                            "Tomato":20,
+                            "Green Chilli":20,
+                            "Corn":20
+                        }
+                    },
+                    "Chicken Tandoori (Regular)":{
+                        "Description":"Tandoori Chicken, Jalapeno, Green Chilli, Fresh Tomato.",
+                        "Crust Pizza":{
+                            "Hand Toast":219,
+                            "Buttery Base":239,
+                            "Pan Base":244,
+                            "Signature Crust":259,
+                            "Cheese Burst":284,
+                            "Ultimate Cheese Burst":284
+                        },
+                        "Extra Cheese":45,
+                        "Extra Topping Veg":{
+                            "Barbeque Chicken":25,
+                            "Spicy Chicken":25,
+                            "Jalapeno":20,
+                            "Mushroom":20,
+                            "Onion":20,
+                            "Pineapple":20,
+                            "Red Peper":20,
+                            "Tomato":20,
+                            "Green Chilli":20,
+                            "Corn":20
+                        }
+                    },
+                    "Texas Heat (Regular)":{
+                        "Description":"Chicken Strips, Jalapeno, Crisp Onion, Gr.Pepper",
+                        "Crust Pizza":{
+                            "Hand Toast":219,
+                            "Buttery Base":239,
+                            "Pan Base":244,
+                            "Signature Crust":259,
+                            "Cheese Burst":284,
+                            "Ultimate Cheese Burst":284
+                        },
+                        "Extra Cheese":45,
+                        "Extra Topping Veg":{
+                            "Barbeque Chicken":25,
+                            "Spicy Chicken":25,
+                            "Jalapeno":20,
+                            "Mushroom":20,
+                            "Onion":20,
+                            "Pineapple":20,
+                            "Red Peper":20,
+                            "Tomato":20,
+                            "Green Chilli":20,
+                            "Corn":20
+                        }
+                    }
+                }
+            },
+            "Side Order":{
+                "Breads (SIDES)":{
+                    "Jalapeno Garlic Bread":{
+                        "Price":125,
+                        "Description":"Garlic Sticks Filled with Tangy Jalapeno, Sweet Corn & Mozzarella Cheese."
+                    },
+                    "Stuff Garlic Bread":{
+                        "Price":129,
+                        "Description":""
+                    }
+                },
+                "SUBS (SIDES)":{
+                    "Classic Sub":{
+                        "Price":119,
+                        "Description":"A Traditional way of Sub which is stuffed with fresh vegetables like Cucumber, Onion & Capsicum with sweet touch."
+                    },
+                    "Super Tandoori Sub":{
+                        "Price":125,
+                        "Description":"Fresh Baked Sub Having lots of sauce and touch of smoky tandoori feeling with goodness of veggie inside."
+                    },
+                    "Tandoori Chicken Tikka Sub":{
+                        "Price":135,
+                        "Description":"Fresh Load of sub which has marinated Chicken strips and pieces along with spicy and tangy aroma of sauces like tandoori."
+                    }
+                }
+            },
+            "Pizza Pie":{
+                "Veg Pizza Pie":{
+                    "Sweet and Tangy":{
+                        "Price":129,
+                        "Description":"Jalapeno + Tomato + Mushroom."
+                    },
+                    "Spicy Journey":{
+                        "Price":135,
+                        "Description":"Paneer + Jalapeno + Sweet Corn."
+                    },
+                    "Spicy Touch":{
+                        "Price":129,
+                        "Description":"Onion + Capsicum + Red Paprika."
+                    }
+                },
+                "Non-veg Pizza Pie":{
+                    "Spicy Chicken":{
+                        "Price":119,
+                        "Description":"Spicy Chicken + Cheese Blend."
+                    },
+                    "Bbq Nation":{
+                        "Price":129,
+                        "Description":"Onion & BBQ Chicken."
+                    }
+                }
+            }
+        }
+    },
+    {
+        "Name":"Natural Ice Cream",
+        "Location":"Vasco",
+        "categories":["Ice Cream", "Desserts"],
+        "TimeOpening":"10:00:00",
+        "TimeClosing":"23:00:00",
+        "Rating":4.5,
+        "Pricing":"150 for one.",
+        "Menu":{
+            "Ice Creams:":{
+                "Ice cream":{
+                    "Sitaphal Ice Cream":{
+                        "single scoop":60,
+                        "double scoop":120,
+                        "500g pack":290
+                    },
+                    "Tender Coconut Ice Cream":{
+                        "single scoop":60,
+                        "double scoop":120,
+                        "500g pack":290
+                    },
+                    "Mango Ice Cream":{
+                        "single scoop":60,
+                        "double scoop":120,
+                        "500g pack":290
+                    },
+                    "Chikoo Ice Cream":{
+                        "single scoop":60,
+                        "double scoop":120,
+                        "500g pack":290
+                    },
+                    "Roasted Almond Ice Cream":{
+                        "single scoop":60,
+                        "double scoop":120,
+                        "500g pack":290
+                    },
+                    "Jack Fruit Ice Cream":{
+                        "single scoop":60,
+                        "double scoop":120,
+                        "500g pack":290
+                    },
+                    "Muskmelon Ice Cream":{
+                        "single scoop":60,
+                        "double scoop":120,
+                        "500g pack":290
+                    }
+                }
+            }
+        }
+    },
+    {
+        "Name":"The Belgian Waffle Co.",
+        "Location":"Vasco",
+        "categories":["Desserts","Baverages","Fast Food" ],
+        "TimeOpening":"9:00:00",
+        "TimeClosing":"00:00:00",
+        "Rating":4.3,
+        "Pricing":"150 for one.",
+        "Menu":{
+            "Signature Waffles and Pancakes":{
+                "Classic":{
+                    "Honey Butter/Maple Butter":{
+                        "Mini Pancakes":88,
+                        "Original Waffwich":100,
+                        "Ice Cream Waffwich":130
+                    },
+                    "Strawberry Creamcheese":{
+                        "Mini Pancakes":130,
+                        "Original Waffwich":150,
+                        "Ice Cream Waffwich":180
+                    },
+                    "Blueberry Creamcheese":{
+                        "Mini Pancakes":140,
+                        "Original Waffwich":160,
+                        "Ice Cream Waffwich":190
+                    }
+                },
+                "Chocolate":{
+                    "Belgian Chocolate":{
+                        "Mini Pancakes":110,
+                        "Original Waffwich":140,
+                        "Ice Cream Waffwich":170
+                    },
+                    "Butterscotch Crunch":{
+                        "Mini Pancakes":100,
+                        "Original Waffwich":130,
+                        "Ice Cream Waffwich":160
+                    },
+                    "Coffee Mocha":{
+                        "Mini Pancakes":110,
+                        "Original Waffwich":140,
+                        "Ice Cream Waffwich":170
+                    },
+                    "Kit Kat":{
+                        "Mini Pancakes":120,
+                        "Original Waffwich":150,
+                        "Ice Cream Waffwich":180
+                    },
+                    "Naked Nutella":{
+                        "Mini Pancakes":150,
+                        "Original Waffwich":170,
+                        "Ice Cream Waffwich":200
+                    }
+                },
+                "Double Chocolate":{
+                    "Dark and White Fantasy":{
+                        "Mini Pancakes":120,
+                        "Original Waffwich":150,
+                        "Ice Cream Waffwich":180
+                    },
+                    "Chocolate Overload":{
+                        "Mini Pancakes":120,
+                        "Original Waffwich":150,
+                        "Ice Cream Waffwich":180
+                    },
+                    "Triple Chocolate":{
+                        "Mini Pancakes":130,
+                        "Original Waffwich":160,
+                        "Ice Cream Waffwich":190
+                    }
+                },
+                "Black Velvet":{
+                    "Kiki And Oreo Cream":{
+                        "Mini Pancakes":110,
+                        "Original Waffwich":140,
+                        "Ice Cream Waffwich":170
+                    },
+                    "Biscoff Milkyway":{
+                        "Mini Pancakes":120,
+                        "Original Waffwich":150,
+                        "Ice Cream Waffwich":180
+                    }
+                },
+                "Red Velvet":{
+                    "Red Velvet":{
+                        "Mini Pancakes":120,
+                        "Original Waffwich":150,
+                        "Ice Cream Waffwich":180
+                    },
+                    "Pink Almond Crunch":{
+                        "Mini Pancakes":120,
+                        "Original Waffwich":140,
+                        "Ice Cream Waffwich":170
+                    }
+                },
+                "Nut Butters":{
+                    "Cashewnut Butter":{
+                        "Mini Pancakes":140,
+                        "Original Waffwich":160,
+                        "Ice Cream Waffwich":190
+                    },
+                    "Almond Cocoa Butter":{
+                        "Mini Pancakes":130,
+                        "Original Waffwich":160,
+                        "Ice Cream Waffwich":190
+                    },
+                    "Peanut Butter":{
+                        "Mini Pancakes":120,
+                        "Original Waffwich":150,
+                        "Ice Cream Waffwich":180
+                    }
+                },
+                "Signature Sundaes":{
+                    "Ice Cream and Fudge":{
+                        "Mini Pancakes":120,
+                        "Original Waffwich":160
+                    },
+                    "Triple Cookie":{
+                        "Mini Pancakes":160,
+                        "Original Waffwich":190
+                    },
+                    "Rocky Road":{
+                        "Mini Pancakes":150,
+                        "Original Waffwich":180
+                    }
+                }
+            },
+            "Stroopwafel":{
+                "Stroopwafel":{
+                    "The Red Dutches":{
+                        "price":90
+                    },
+                    "Voila Nutella (with sea salt)":{
+                        "price":110
+                    },
+                    "Kiki And Cream":{
+                        "price":90
+                    },
+                    "Sir Chocolat":{
+                        "price":90
+                    }
+                }
+            },
+            "The Waffle Cake":{
+                "Waffle Cake":{
+                    "Death By Chocolate":{
+                        "single layer":330,
+                        "double layer":529
+                    },
+                    "Red Velvet":{
+                        "single layer":330,
+                        "double layer":529
+                    },
+                    "Kiki And Oreo Cream":{
+                        "single layer":330,
+                        "double layer":529
+                    }
+                }
+            }
+        }
+    },
+    {
+        "Name":"The LunchBox",
+        "Location":"Vasco",
+        "categories":["North Indian", "Fast Food", "Beverages", "Street Food", "Chinese"],
+        "TimeOpening":"8:00:00",
+        "TimeClosing":"00:00:00",
+        "Rating":3.6,
+        "Pricing":"150 for one.",
+        "Menu":{
+            "Breakfast":{
+                "Veg Breakfast":{
+                    "Bread Butter Sandwich":{
+                        "price":25
+                    },
+                    "Bread Butter Grilled Sandwich":{
+                        "price":40
+                    },
+                    "Bread Cheese Sandwich":{
+                        "price":50
+                    },
+                    "Bread Cheese Grilled Sandwich":{
+                        "price":60
+                    },
+                    "Bread Jam Sandwich":{
+                        "price":30
+                    },
+                    "Bread Jam Grilled Sandwich":{
+                        "price":40
+                    },
+                    "Bread Nutella Sandwich":{
+                        "price":40
+                    },
+                    "Bread Nutella Grilled Sandwich":{
+                        "price":45
+                    },
+                    "Veg Sandwich":{
+                        "price":50
+                    },
+                    "Veg Grilled Sandwich":{
+                        "price":60
+                    },
+                    "Aloo Paratha":{
+                        "price":75
+                    },
+                    "Paneer Paratha":{
+                        "price":100
+                    },
+                    "Cheese Paratha":{
+                        "price":125
+                    },
+                    "Onion Paratha":{
+                        "price":100
+                    },
+                    "Poha":{
+                        "price":60
+                    },
+                    "Paneer Bhurji":{
+                        "price":85
+                    }
+                },
+                "Non-veg Breakfast":{
+                    "Boiled Egg":{
+                        "price":20
+                    },
+                    "Double Boiled Egg":{
+                        "price":30
+                    },
+                    "Sweet French Toast":{
+                        "price":50
+                    },
+                    "Masala French Toast":{
+                        "price":50
+                    },
+                    "Half Fry":{
+                        "price":50
+                    },
+                    "Omelette":{
+                        "price":40
+                    },
+                    "Cheese Omelette":{
+                        "price":50
+                    },
+                    "Masala Omelette":{
+                        "price":60
+                    },
+                    "Cheese Masala Omelette":{
+                        "price":100
+                    },
+                    "Double Egg Bhurji":{
+                        "price":75
+                    },
+                    "Masala Omelette with Bread":{
+                        "price":60
+                    },
+                    "Double Egg Bhruji with Bread":{
+                        "price":85
+                    },
+                    "Egg Paratha":{
+                        "price":75
+                    },
+                    "Double Boiled Egg Fry":{
+                        "price":50
+                    },
+                    "Chicken Sandwich":{
+                        "price":100
+                    }
+                }
+            },
+            "Soups":{
+                "Veg Soups":{
+                    "Veg Clear Soup":{
+                        "price":100
+                    },
+                    "Veg Manchow Soup":{
+                        "price":100
+                    },
+                    "Veg Hot and Sour Soup":{
+                        "price":100
+                    },
+                    "Tomato Soup":{
+                        "price":125
+                    }
+                },
+                "Non-veg Soups":{
+                    "Chicken Clear Soup":{
+                        "price":125
+                    },
+                    "Chicken Manchow Soup":{
+                        "price":135
+                    },
+                    "Chicken Hot and Sour Soup":{
+                        "price":135
+                    }
+                }
+            },
+            "Starters":{
+                "Veg Starters":{
+                    "Gobi Manchurian":{
+                        "price":160
+                    },
+                    "Veg Crispy":{
+                        "price":160
+                    },
+                    "Paneer Chilli":{
+                        "price":190
+                    },
+                    "Mushroom Chilli":{
+                        "price":200
+                    },
+                    "Veg 65":{
+                        "price":160
+                    }
+                },
+                "Non-veg Starters":{
+                    "Indian Chicken Chilli":{
+                        "price":185
+                    },
+                    "Chicken Lollipop (6 pieces)":{
+                        "price":150
+                    },
+                    "Chicken Dry Fry":{
+                        "price":160
+                    },
+                    "Chicken Manchurian":{
+                        "price":190
+                    },
+                    "Chicken 65":{
+                        "price":190
+                    }
+                }
+            },
+            "Main Course":{
+                "Veg Main Course ":{
+                    "Paneer Butter Masala":{
+                        "price":250
+                    },
+                    "Kadhai Paneer":{
+                        "price":225
+                    },
+                    "Mix Veg Masala":{
+                        "price":150
+                    },
+                    "Veg Kolhapuri":{
+                        "price":175
+                    },
+                    "Dal Fry":{
+                        "price":100
+                    }
+                },
+                "Non-veg Main Course ":{
+                    "Chicken Masala":{
+                        "price":225
+                    },
+                    "Chicken Kolhapuri":{
+                        "price":225
+                    },
+                    "Mughlai Chicken":{
+                        "price":225
+                    },
+                    "Chicken Curry":{
+                        "price":200
+                    },
+                    "Egg Curry":{
+                        "price":150
+                    }
+                }
+            },
+            "Breads":{
+                "Breads":{
+                    "Plain Roti":{
+                        "price":15
+                    },
+                    "Butter Roti":{
+                        "price":20
+                    },
+                    "Paratha":{
+                        "price":30
+                    },
+                    "Plain Naan":{
+                        "price":50
+                    },
+                    "Butter Naan":{
+                        "price":55
+                    },
+                    "Butter Garlic Naan":{
+                        "price":75
+                    },
+                    "Cheese Garlic Naan":{
+                        "price":150
+                    },
+                    "Cheese Chilli Garlic Naan":{
+                        "price":175
+                    }
+                }
+            },
+            "Rice and Biryani":{
+                "Rice":{
+                    "Steamed Rice":{
+                        "price":100
+                    },
+                    "Jeera Rice":{
+                        "price":125
+                    },
+                    "Dal Khichdi":{
+                        "price":135
+                    }
+                },
+                "Biryani":{
+                    "Veg Biryani":{
+                        "price":175
+                    },
+                    "Egg Biryani":{
+                        "price":175
+                    },
+                    "Chicken Biryani":{
+                        "price":200
+                    }
+                }
+            }
+
+        }
+    },
+    {
+        "Name":"Seafood Garage",
+        "Location":"Bogmalo",
+        "categories":["Seafood", "Goan"],
+        "TimeOpening":"11:00:00",
+        "TimeClosing":"00:00:00",
+        "Rating":3.9,
+        "Pricing":"150 for one.",
+        "Menu":{
+            "Thali":{
+                "Thali":{
+                    "Fish Thali":{
+                        "price":130,
+                        "Description":"Rice + Pickle + Fish Curry + Fish Fry + Dry Prawns Bhaji + Veg Bhaji + Salad + Solkadhi + Fried Fish"
+                    }
+                }
+            }
+        }
+    }
+]
