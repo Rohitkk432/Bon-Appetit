@@ -22,18 +22,7 @@
                             "Double Cheese Burst":625,
                             "Double Twist":630
                         },
-                        "Extra Cheese":75,
-                        "Extra Topping Veg":{
-                            "Capsicum":30,
-                            "Jalapeno":30,
-                            "Mushroom":30,
-                            "Onion":30,
-                            "Pineapple":30,
-                            "Red Peper":30,
-                            "Tomato":30,
-                            "Green Chilli":30,
-                            "Corn":30
-                        }
+                        "Extra Cheese":75
                     },
                     "Bbq Feast (Medium)":{
                         "Description":"Seasoned Onion &     Capsicum, Red Paprika & Onion.",
@@ -47,18 +36,7 @@
                             "Double Cheese Burst":625,
                             "Double Twist":630
                         },
-                        "Extra Cheese":75,
-                        "Extra Topping Veg":{
-                            "Capsicum":30,
-                            "Jalapeno":30,
-                            "Mushroom":30,
-                            "Onion":30,
-                            "Pineapple":30,
-                            "Red Peper":30,
-                            "Tomato":30,
-                            "Green Chilli":30,
-                            "Corn":30
-                        }
+                        "Extra Cheese":75
                     },
                     "Aromatic Paneer (Regular)":{
                         "Description":"Royal Flavours of Panner, with Red Paprika, Onion, Capsicum, with Aromatic Sauces.",
@@ -70,17 +48,7 @@
                             "Cheese Burst":324,
                             "Ultimate Cheese Burst":324
                         },
-                        "Extra Cheese":45,
-                        "Extra Topping Veg":{
-                            "Jalapeno":20,
-                            "Mushroom":20,
-                            "Onion":20,
-                            "Pineapple":20,
-                            "Red Peper":20,
-                            "Tomato":20,
-                            "Green Chilli":20,
-                            "Corn":20
-                        }
+                        "Extra Cheese":45
                     },
                     "Bbq Feast (Regular)":{
                         "Description":"Seasoned Onion & Capsicum, Red Paprika & Onion.",
@@ -92,17 +60,7 @@
                             "Cheese Burst":324,
                             "Ultimate Cheese Burst":324
                         },
-                        "Extra Cheese":45,
-                        "Extra Topping Veg":{
-                            "Jalapeno":20,
-                            "Mushroom":20,
-                            "Onion":20,
-                            "Pineapple":20,
-                            "Red Peper":20,
-                            "Tomato":20,
-                            "Green Chilli":20,
-                            "Corn":20
-                        }
+                        "Extra Cheese":45
                     }
                 },
                 "Amature Pizza":{
@@ -118,18 +76,7 @@
                             "Double Cheese Burst":549,
                             "Double Twist":554
                         },
-                        "Extra Cheese":75,
-                        "Extra Topping Veg":{
-                            "Capsicum":30,
-                            "Jalapeno":30,
-                            "Mushroom":30,
-                            "Onion":30,
-                            "Pineapple":30,
-                            "Red Peper":30,
-                            "Tomato":30,
-                            "Green Chilli":30,
-                            "Corn":30
-                        }
+                        "Extra Cheese":75
                     }
                     ,"Tandoori Paneer (Medium)":{
                         "Description":"Tandoori Cheese and Sauce, Paneer, Fresh Capsicum, Red Paprika.",
@@ -143,18 +90,7 @@
                             "Double Cheese Burst":549,
                             "Double Twist":554
                         },
-                        "Extra Cheese":75,
-                        "Extra Topping Veg":{
-                            "Capsicum":30,
-                            "Jalapeno":30,
-                            "Mushroom":30,
-                            "Onion":30,
-                            "Pineapple":30,
-                            "Red Peper":30,
-                            "Tomato":30,
-                            "Green Chilli":30,
-                            "Corn":30
-                        }
+                        "Extra Cheese":75
                     },
                     "Smoky Zesty (Regular)":{
                         "Description":"Onion, Capsicum, Tomato, Jalapeno, Zesty Sauce.",
@@ -166,17 +102,7 @@
                             "Cheese Burst":284,
                             "Ultimate Cheese Burst":284
                         },
-                        "Extra Cheese":45,
-                        "Extra Topping Veg":{
-                            "Jalapeno":20,
-                            "Mushroom":20,
-                            "Onion":20,
-                            "Pineapple":20,
-                            "Red Peper":20,
-                            "Tomato":20,
-                            "Green Chilli":20,
-                            "Corn":20
-                        }
+                        "Extra Cheese":45
                     },
                     "Tandoori Paneer (Regular)":{
                         "Description":"Tandoori Cheese and Sauce, Paneer, Fresh Capsicum, Red Paprika.",
@@ -188,17 +114,7 @@
                             "Cheese Burst":284,
                             "Ultimate Cheese Burst":284
                         },
-                        "Extra Cheese":45,
-                        "Extra Topping Veg":{
-                            "Jalapeno":20,
-                            "Mushroom":20,
-                            "Onion":20,
-                            "Pineapple":20,
-                            "Red Peper":20,
-                            "Tomato":20,
-                            "Green Chilli":20,
-                            "Corn":20
-                        }
+                        "Extra Cheese":45
                     }
                 },
                 "Basic Concepts":{
@@ -214,18 +130,7 @@
                             "Double Cheese Burst":489,
                             "Double Twist":554
                         },
-                        "Extra Cheese":75,
-                        "Extra Topping Veg":{
-                            "Capsicum":30,
-                            "Jalapeno":30,
-                            "Mushroom":30,
-                            "Onion":30,
-                            "Pineapple":30,
-                            "Red Peper":30,
-                            "Tomato":30,
-                            "Green Chilli":30,
-                            "Corn":30
-                        }
+                        "Extra Cheese":75
                     },
                     "Queen Marghrita (Medium)":{
                         "Description":"Loaded with Cheese",
@@ -239,18 +144,7 @@
                             "Double Cheese Burst":489,
                             "Double Twist":554
                         },
-                        "Extra Cheese":75,
-                        "Extra Topping Veg":{
-                            "Capsicum":30,
-                            "Jalapeno":30,
-                            "Mushroom":30,
-                            "Onion":30,
-                            "Pineapple":30,
-                            "Red Peper":30,
-                            "Tomato":30,
-                            "Green Chilli":30,
-                            "Corn":30
-                        }
+                        "Extra Cheese":75
                     },
                     "Cheese & Golden Corn (Regular)":{
                         "Description":"sweet corn + Mozzarella Cheese.",
@@ -262,17 +156,7 @@
                             "Cheese Burst":229,
                             "Ultimate Cheese Burst":229
                         },
-                        "Extra Cheese":45,
-                        "Extra Topping Veg":{
-                            "Jalapeno":20,
-                            "Mushroom":20,
-                            "Onion":20,
-                            "Pineapple":20,
-                            "Red Peper":20,
-                            "Tomato":20,
-                            "Green Chilli":20,
-                            "Corn":20
-                        }
+                        "Extra Cheese":45
                     },
                     "Queen Marghrita (Regular)":{
                         "Description":"Loaded with Cheese",
@@ -284,17 +168,7 @@
                             "Cheese Burst":229,
                             "Ultimate Cheese Burst":229
                         },
-                        "Extra Cheese":45,
-                        "Extra Topping Veg":{
-                            "Jalapeno":20,
-                            "Mushroom":20,
-                            "Onion":20,
-                            "Pineapple":20,
-                            "Red Peper":20,
-                            "Tomato":20,
-                            "Green Chilli":20,
-                            "Corn":20
-                        }
+                        "Extra Cheese":45
                     }
                 }
             },
@@ -312,19 +186,7 @@
                             "Double Cheese Burst":551,
                             "Double Twist":556
                         },
-                        "Extra Cheese":75,
-                        "Extra Topping Veg":{
-                            "Barbeque Chicken":55,
-                            "Spicy Chicken":55,
-                            "Capsicum":30,
-                            "Jalapeno":30,
-                            "Mushroom":30,
-                            "Onion":30,
-                            "Pineapple":30,
-                            "Red Peper":30,
-                            "Tomato":30,
-                            "Corn":30
-                        }
+                        "Extra Cheese":75
                     },
                     "Chicken Tandoori (Medium)":{
                         "Description":"Tandoori Chicken, Jalapeno, Green Chilli, Fresh Tomato.",
@@ -338,19 +200,7 @@
                             "Double Cheese Burst":551,
                             "Double Twist":556
                         },
-                        "Extra Cheese":75,
-                        "Extra Topping Veg":{
-                            "Barbeque Chicken":55,
-                            "Spicy Chicken":55,
-                            "Capsicum":30,
-                            "Jalapeno":30,
-                            "Mushroom":30,
-                            "Onion":30,
-                            "Pineapple":30,
-                            "Red Peper":30,
-                            "Tomato":30,
-                            "Corn":30
-                        }
+                        "Extra Cheese":75
                     },
                     "Texas Heat (Medium)":{
                         "Description":"Chicken Strips, Jalapeno, Crisp Onion, Gr.Pepper",
@@ -364,19 +214,7 @@
                             "Double Cheese Burst":551,
                             "Double Twist":556
                         },
-                        "Extra Cheese":75,
-                        "Extra Topping Veg":{
-                            "Barbeque Chicken":55,
-                            "Spicy Chicken":55,
-                            "Capsicum":30,
-                            "Jalapeno":30,
-                            "Mushroom":30,
-                            "Onion":30,
-                            "Pineapple":30,
-                            "Red Peper":30,
-                            "Tomato":30,
-                            "Corn":30
-                        }
+                        "Extra Cheese":75
                     },
                     "Chicken King (Regular)":{
                         "Description":"Barbeque Fillet, Spicy Lemon Chicken Fillet, Fresh Tomato, Crisp Onion, Sweet Corn.",
@@ -388,19 +226,7 @@
                             "Cheese Burst":284,
                             "Ultimate Cheese Burst":284
                         },
-                        "Extra Cheese":45,
-                        "Extra Topping Veg":{
-                            "Barbeque Chicken":25,
-                            "Spicy Chicken":25,
-                            "Jalapeno":20,
-                            "Mushroom":20,
-                            "Onion":20,
-                            "Pineapple":20,
-                            "Red Peper":20,
-                            "Tomato":20,
-                            "Green Chilli":20,
-                            "Corn":20
-                        }
+                        "Extra Cheese":45
                     },
                     "Chicken Tandoori (Regular)":{
                         "Description":"Tandoori Chicken, Jalapeno, Green Chilli, Fresh Tomato.",
@@ -412,19 +238,7 @@
                             "Cheese Burst":284,
                             "Ultimate Cheese Burst":284
                         },
-                        "Extra Cheese":45,
-                        "Extra Topping Veg":{
-                            "Barbeque Chicken":25,
-                            "Spicy Chicken":25,
-                            "Jalapeno":20,
-                            "Mushroom":20,
-                            "Onion":20,
-                            "Pineapple":20,
-                            "Red Peper":20,
-                            "Tomato":20,
-                            "Green Chilli":20,
-                            "Corn":20
-                        }
+                        "Extra Cheese":45
                     },
                     "Texas Heat (Regular)":{
                         "Description":"Chicken Strips, Jalapeno, Crisp Onion, Gr.Pepper",
@@ -436,19 +250,7 @@
                             "Cheese Burst":284,
                             "Ultimate Cheese Burst":284
                         },
-                        "Extra Cheese":45,
-                        "Extra Topping Veg":{
-                            "Barbeque Chicken":25,
-                            "Spicy Chicken":25,
-                            "Jalapeno":20,
-                            "Mushroom":20,
-                            "Onion":20,
-                            "Pineapple":20,
-                            "Red Peper":20,
-                            "Tomato":20,
-                            "Green Chilli":20,
-                            "Corn":20
-                        }
+                        "Extra Cheese":45
                     }
                 }
             },
@@ -515,7 +317,7 @@
         "Rating":4.5,
         "Pricing":"150 for one.",
         "Menu":{
-            "Ice Creams:":{
+            "Ice Creams":{
                 "Ice cream":{
                     "Sitaphal Ice Cream":{
                         "single scoop":60,
@@ -568,7 +370,7 @@
             "Signature Waffles and Pancakes":{
                 "Classic":{
                     "Honey Butter/Maple Butter":{
-                        "Mini Pancakes":88,
+                        "Mini Pancakes":80,
                         "Original Waffwich":100,
                         "Ice Cream Waffwich":130
                     },
@@ -666,20 +468,6 @@
                         "Mini Pancakes":120,
                         "Original Waffwich":150,
                         "Ice Cream Waffwich":180
-                    }
-                },
-                "Signature Sundaes":{
-                    "Ice Cream and Fudge":{
-                        "Mini Pancakes":120,
-                        "Original Waffwich":160
-                    },
-                    "Triple Cookie":{
-                        "Mini Pancakes":160,
-                        "Original Waffwich":190
-                    },
-                    "Rocky Road":{
-                        "Mini Pancakes":150,
-                        "Original Waffwich":180
                     }
                 }
             },

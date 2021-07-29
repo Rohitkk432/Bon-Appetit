@@ -1,10 +1,22 @@
-const express = require("express");
-
+const express = require('express');
 const app = express();
+const cors = require('cors');
+const pool = require('./pool');
 
-app.use("/",(req,res,next)=>{
-    console.log("server started!");
-    res.send('<h1>hello</h1>');
+//middleware
+app.use(cors());
+app.use(express.json());
+
+const Port = process.env.PORT || 5000 ;
+
+pool.connect({
+    host : 'localhost',
+    port : '5432',
+    database : 'bon-appetit',
+    user : 'postgres',
+    password : 'rohitkk432'
+})
+
+app.listen(Port,()=>{
+    console.log(`server started on port ${Port} `);
 });
-
-app.listen(3000);
