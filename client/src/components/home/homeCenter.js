@@ -1,29 +1,36 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "./homeCenter.css";
-import Searchbar from "../utils/searchbar";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import { faChevronRight,faSearch } from '@fortawesome/free-solid-svg-icons';
+import {Link} from 'react-router-dom';
 
-class HomeCenter extends Component{
-    render(){
-        return(
-            <>
-                <div className="homeCenter">
-                    <Searchbar/>
-                    <div className="homeContent"></div>
-                    <div className="foodCategories">
-                        <div className="fcategory"></div>
-                        <div className="fcategory"></div>
-                        <div className="fcategory"></div>
-                        <div className="fcategory"></div>
-                        <div className="expandbtn">
-                            <FontAwesomeIcon className="expand" icon={faChevronRight} aria-hidden="true" />
-                        </div>
+function HomeCenter (){
+    return(
+        <>
+            <div className="homeCenter">
+                <Link to='/searching' className="search--bar" style={{ textDecoration: 'none' }}>
+                    <div className="searchbox">
+                        <FontAwesomeIcon icon={faSearch} aria-hidden="true" />
+                        <input 
+                            type="text" 
+                            placeholder="Search"
+                            className="searchbar"
+                        />
+                    </div>
+                </Link>
+                <div className="homeContent"></div>
+                <div className="foodCategories">
+                    <div className="fcategory"></div>
+                    <div className="fcategory"></div>
+                    <div className="fcategory"></div>
+                    <div className="fcategory"></div>
+                    <div className="expandbtn">
+                        <FontAwesomeIcon className="expand" icon={faChevronRight} aria-hidden="true"/>
                     </div>
                 </div>
-            </>
-        )
-    }
+            </div>
+        </>
+    )
 }
 
 export default HomeCenter;

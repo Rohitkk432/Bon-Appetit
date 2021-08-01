@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.resultbox {
+    height: 4rem;
+    width: 40vw;
+    margin-top: 1rem;
+    border: 2px solid rgb(116, 116, 116);
+    border-radius: 20px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.res-name {
+    width: 10rem;
+    /* background: pink; */
+    margin: 5px;
+}
+.res-location {
+    width: 10rem;
+    /* background: pink; */
+    margin: 5px;
+}
+.res-pricing {
+    width: 10rem;
+    /* background: pink; */
+    margin: 5px;
+}
