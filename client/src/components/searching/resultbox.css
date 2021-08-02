@@ -30,3 +30,8 @@
     /* background: pink; */
     margin: 5px;
 }
+.open-icon {
+    margin: 1rem;
+    font-size: large;
+    color: black;
+}

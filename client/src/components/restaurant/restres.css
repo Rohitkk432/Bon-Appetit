@@ -27,3 +27,30 @@
     justify-content: center;
     align-items: center;
 }
+
+.restinfo {
+    width: 55vw;
+    height: 20vh;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    background-color: aliceblue;
+}
+
+.restmenu {
+    height: 57vh;
+    width: 62vw;
+    background-color: aliceblue;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.restcat {
+    width: 20%;
+    height: 90%;
+    margin: 0.15rem;
+    /* background-color: peachpuff; */
+    border-right: 2px solid rgb(78, 78, 78);
+}

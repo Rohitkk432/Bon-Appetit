@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.subcat {
+    width: 90%;
+    height: 90%;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    /* background-color: coral; */
+    /* border-left: 2px solid rgb(78, 78, 78); */
+}
+.subcatname {
+    width: 90%;
+    height: 2rem;
+    background-color: pink;
+}

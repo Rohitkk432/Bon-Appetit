@@ -10,7 +10,7 @@ const restReducer = (state=[],action) => {
 };
 
 const getrests = ()=>async(dispatch,getState)=>{
-    const rests =  await fetch(`http://localhost:5000/restaurant`).then((res)=> res.json());
+    const rests =  await fetch(`http://localhost:5000/restaurant`).then((res)=> res.json()).catch((err)=>console.log(err));
     dispatch(getrest(rests));
 }
 
