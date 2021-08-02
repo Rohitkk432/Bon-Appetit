@@ -1,17 +1,15 @@
 import {restReducer} from './restget';
-import { catsReducer } from './catsget';
 import {restinmenuReducer} from './restinmenu';
 import {activecatReducer} from './activecat';
-import {subcatsReducer} from './subcatsget';
+import { dishesReducer } from './dishesget';
 
 import {combineReducers} from 'redux';
 
 const allReducers = combineReducers({
     rests : restReducer,
+    dishes : dishesReducer,
     restId : restinmenuReducer,
-    cats: catsReducer,
-    activeCategory :  activecatReducer,
-    subcats : subcatsReducer
+    activeCategory :  activecatReducer
 })
 
 export default allReducers;

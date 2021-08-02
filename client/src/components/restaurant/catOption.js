@@ -4,13 +4,15 @@ import {useDispatch} from 'react-redux';
 import {getactivecat} from '../../actions/index';
 
 function CatOption(params) {
-    const {category}=params
+    const category = params.params;
     const dispatch = useDispatch();
     return (
         <div
         onClick={()=>{
             dispatch(getactivecat(category))
-        }} className="catOption">{category}</div>
+        }} className="catOption">
+            {category}
+        </div>
     )
 }
 

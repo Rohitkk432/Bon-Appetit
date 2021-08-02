@@ -1,21 +1,15 @@
-import {React,useState,useEffect, useMemo} from 'react';
+import {React,useState,useMemo} from 'react';
 import './searching.css';
 import Resultbox from './resultbox';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch} from '@fortawesome/free-solid-svg-icons';
-import {useSelector, useDispatch} from 'react-redux';
-import {getrests} from "../../reducers/restget"
+import {useSelector} from 'react-redux';
+
 
 function Searching() {
 
-    // const [restaurants,setRestaurants] = useState([]);
     const [search, setSearch] = useState("");
     const restaurants = useSelector(state => state.rests);
-    const dispatch = useDispatch();
-
-    useEffect(() => {
-        dispatch(getrests());
-    },[dispatch]);
 
     const data = useMemo(() => {
         if (!search) return restaurants;

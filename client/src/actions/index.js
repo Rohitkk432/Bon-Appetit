@@ -5,10 +5,10 @@ export const getrest = (rests) => {
     }
 }
 
-export const getcat = (cats) => {
+export const getdish = (dishes) => {
     return{
-        type: 'GETCAT',
-        payload: cats
+        type: 'GETDISHES',
+        payload: dishes
     }
 }
 
@@ -23,12 +23,5 @@ export const getactivecat = (category) => {
     return{
         type: 'CURRENTCAT',
         payload: category
-    }
-}
-
-export const getsubcat = (subcats) => {
-    return{
-        type: 'GETSUBCAT',
-        payload: subcats
     }
 }

@@ -4,15 +4,12 @@ import './subcat.css';
 import Dishres from './dishres';
 
 function Subcat(params) {
-    const {subcategory}=params;
-    console.log(subcategory);
+    const subcategory=params.params;
     return (
         <div className="subcat">
-            <div className="subcatname">{subcategory}</div>
-            <Dishres/>
-            <Dishres/>
-            <Dishres/>
-            <Dishres/>
+            <div className="subcatname">
+                {subcategory}
+                </div>
             <Dishres/>
             <Dishres/>
         </div>
