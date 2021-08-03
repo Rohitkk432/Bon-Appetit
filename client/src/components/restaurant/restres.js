@@ -1,7 +1,4 @@
-import {React
-    ,useEffect
-    ,useState
-} from 'react';
+import {React,useEffect,useState} from 'react';
 import "./restres.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
@@ -9,18 +6,14 @@ import {Link} from 'react-router-dom';
 import { Scrollbars } from 'react-custom-scrollbars';
 import Subcat from './subcat';
 import CatOption from './catOption';
-import {useSelector
-    // , useDispatch
-} from 'react-redux';
-
+import {useSelector, useDispatch} from 'react-redux';
+import {getactivecat} from '../../actions/index';
 
 function Restres (){
     const dishes = useSelector(state => state.dishes);
     const restId = useSelector(state => state.restId);
-    // const cats = useSelector(state => state.cats);
-    // const subcats = useSelector(state => state.subcats);
     const activeCategory = useSelector(state => state.activeCategory);
-    // const dispatch = useDispatch();
+    const dispatch = useDispatch();
 
     const [cat,setCat]=useState([]);
     const [subcat,setSubcat]=useState([]);
@@ -45,7 +38,10 @@ function Restres (){
         })
         setCat(categories);
 
-    },[dishes,restId]);
+        //setting active cat so previous active cat will not be displayed when opening restaurant
+        dispatch(getactivecat(categories[0]))
+
+    },[dishes,restId,dispatch]);
 
     useEffect(() => {
         //subcategory filtering --->

@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.customizationbox {
+    height: 65vh;
+    width: 35vw;
+    position: fixed;
+    left: 32.5vw;
+    top: 17.5vh;
+    background-color: rgb(93, 176, 248);
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.151);
+    z-index: 4;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.customname {
+    height: 2rem;
+    width: 80%;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.custombox {
+    height: 1.5rem;
+    width: 70%;
+    margin-top: 10px;
+    border-radius: 1rem;
+    background: lightcyan;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.customizationname {
+    margin-left: 1rem;
+}
+.plus-icon {
+    margin-right: 1rem;
+}

@@ -9,4 +9,29 @@
     margin: 5px;
     background-color: lightcoral;
     border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.dishname {
+    margin-left: 2rem;
+}
+.plus-icon {
+    margin-right: 2rem;
+    font-size: large;
+}
+
+.customoverlay {
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.hidden {
+    display: none;
 }

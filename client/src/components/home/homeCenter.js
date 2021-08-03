@@ -1,18 +1,10 @@
-import {React,useEffect} from 'react';
+import {React} from 'react';
 import "./homeCenter.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight,faSearch } from '@fortawesome/free-solid-svg-icons';
 import {Link} from 'react-router-dom';
-import {getrests} from "../../reducers/restget";
-import {getdishes} from "../../reducers/dishesget";
-import {useDispatch} from 'react-redux';
 
 function HomeCenter (){
-    const dispatch = useDispatch();
-    useEffect(() => {
-        dispatch(getrests());
-        dispatch(getdishes());
-    },[dispatch]);
 
     return(
         <>

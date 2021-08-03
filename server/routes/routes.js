@@ -22,12 +22,20 @@ router.get('/dishes',async (req,res)=>{
     }
 });
 
-
-//get customization with dish id and customization id 
-router.get('/dish/:id/:customcategory',async (req,res)=>{
+//getting customcategory table
+router.get('/customcategory',async (req,res)=>{
     try {
-        const {id,customcategory} = req.params
-        const info = await pool.query(`SELECT customization.id,customization.name,customization.price FROM customization JOIN dish ON dish.customcategoryid${customcategory} = customization.customcategoryid WHERE dish.id = $1 ;`,[id]);
+        const info = await pool.query("SELECT * FROM customcategory;");
+        res.json(info.rows);
+    } catch (err) {
+        console.error(err.message);
+    }
+});
+
+//getting customization table
+router.get('/customization',async (req,res)=>{
+    try {
+        const info = await pool.query("SELECT * FROM customization;");
         res.json(info.rows);
     } catch (err) {
         console.error(err.message);

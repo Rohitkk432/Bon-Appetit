@@ -12,6 +12,20 @@ export const getdish = (dishes) => {
     }
 }
 
+export const getcustomization = (customization) => {
+    return{
+        type: 'GETCUSTOMIZATION',
+        payload: customization
+    }
+}
+
+export const getcustomcat = (customcat) => {
+    return{
+        type: 'GETCUSTOMCAT',
+        payload: customcat
+    }
+}
+
 export const getrestinmenu = (restid) => {
     return{
         type: 'CURRENTREST',
