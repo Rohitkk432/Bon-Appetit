@@ -7,9 +7,17 @@
     width: 90%;
     height: 2rem;
     border-radius: 1rem;
-    background-color: bisque;
+    background-color: rgb(255, 206, 70);
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
+}
+.active {
+    /* box-shadow: 3px 3px 3px rgb(247, 145, 0); */
+    border: rgb(247, 145, 0) solid 2px;
+}
+
+.catOption:hover {
+    background-color: rgb(255, 190, 70);
 }

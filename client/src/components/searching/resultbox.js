@@ -14,7 +14,7 @@ function Resultbox(params) {
             <div className="res-name">{name}</div>
             <div className="res-location">{location}</div>
             <div className="res-pricing">{pricing}</div>
-            <Link to='/restres' style={{ textDecoration: 'none' }}>
+            <Link to='/home/restres' style={{ textDecoration: 'none' }}>
                 <FontAwesomeIcon
                 onClick={()=>{
                     dispatch(getrestinmenu(id));

@@ -6,7 +6,7 @@ import Customizationbox from '../customization/customizationbox';
 import {useSelector} from 'react-redux';
 
 function Dishres(params) {
-    const {customcategoryid1,customcategoryid2,name,baseprice}= params ;
+    const {customcategoryid1,customcategoryid2,name,description,baseprice}= params ;
     const customcat = useSelector(state => state.customcat);
     const customization = useSelector(state => state.customization);
 
@@ -35,7 +35,12 @@ function Dishres(params) {
         });
 
         customcat.filter((_data)=>{
-            if(_data.id===customcategoryid1){
+            if(_data.id===customcategoryid1 && _data.id===customcategoryid2 ){
+                customnametemp[0]=_data;
+                customnametemp[1]=_data;
+                return 0;
+            }
+            else if(_data.id===customcategoryid1){
                 customnametemp[0]=_data;
                 return 0;
             }
@@ -69,7 +74,7 @@ function Dishres(params) {
             >
             </div>
             <div className={(!customModal)?"hidden":""}>
-                <Customizationbox custom1={custom1} custom2={custom2} customname={customname} />
+                <Customizationbox modal={[customModal,setCustomModal]} rest={[name,description]} custom1={custom1} custom2={custom2} customname={customname} />
             </div>
         </div>
     )

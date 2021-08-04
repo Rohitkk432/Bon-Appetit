@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 .customizationbox {
-    height: 65vh;
+    height: 90vh;
     width: 35vw;
     position: fixed;
     left: 32.5vw;
-    top: 17.5vh;
-    background-color: rgb(93, 176, 248);
-    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.151);
+    top: 5vh;
+    background-color: rgba(247, 145, 0, 0.8);
+    border: black solid 2px;
     z-index: 4;
     border-radius: 20px;
     display: flex;
@@ -18,12 +18,41 @@
     align-items: center;
     flex-direction: column;
 }
+.closewindowicon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 2rem;
+    font-size: x-large;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 6;
+}
+.closewindowicon:hover {
+    color: rgb(75, 74, 74);
+}
+.restnamecustom {
+    font-size: x-large;
+    padding: 5px;
+    border-radius: 12px;
+    background-color: rgb(255, 208, 0);
+}
+.dishdescrip {
+    width: 90%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
 .customname {
     height: 2rem;
     width: 80%;
     margin-top: 1rem;
     border-radius: 1rem;
     background: white;
+    border: black solid 2px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +63,8 @@
     width: 70%;
     margin-top: 10px;
     border-radius: 1rem;
-    background: lightcyan;
+    background: whitesmoke;
+    /* border: black solid 1px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,4 +75,8 @@
 }
 .plus-icon {
     margin-right: 1rem;
+}
+
+.hidden {
+    display: none;
 }

@@ -9,7 +9,7 @@ function HomeCenter (){
     return(
         <>
             <div className="homeCenter">
-                <Link to='/searching' className="search--bar" style={{ textDecoration: 'none' }}>
+                <Link to='/home/searching' className="search--bar" style={{ textDecoration: 'none' }}>
                     <div className="searchbox">
                         <FontAwesomeIcon icon={faSearch} aria-hidden="true" />
                         <input 

@@ -1,7 +1,7 @@
 import {React,useEffect,useState} from 'react';
 import "./restres.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faSearch, faStar } from '@fortawesome/free-solid-svg-icons';
 import {Link} from 'react-router-dom';
 import { Scrollbars } from 'react-custom-scrollbars';
 import Subcat from './subcat';
@@ -12,16 +12,19 @@ import {getactivecat} from '../../actions/index';
 function Restres (){
     const dishes = useSelector(state => state.dishes);
     const restId = useSelector(state => state.restId);
+    const rests = useSelector(state => state.rests);
     const activeCategory = useSelector(state => state.activeCategory);
     const dispatch = useDispatch();
 
     const [cat,setCat]=useState([]);
     const [subcat,setSubcat]=useState([]);
+    const [rest,setRest]=useState([]);
 
 
     useEffect(() => {
         //category filtering --->
         const categories=[];
+        const _rest=[];
         dishes.filter((_data)=>{
             if (_data.restaurantid === restId){
                 if (!categories.includes(_data.category)){
@@ -36,12 +39,22 @@ function Restres (){
                 return 0;
             }
         })
+        rests.filter((_data)=>{
+            if (_data.id === restId){
+                _rest.push(_data);
+                return 0;
+            }
+            else{
+                return 0;
+            }
+        })
         setCat(categories);
+        setRest(_rest);
 
         //setting active cat so previous active cat will not be displayed when opening restaurant
         dispatch(getactivecat(categories[0]))
 
-    },[dishes,restId,dispatch]);
+    },[dishes,rests,restId,dispatch]);
 
     useEffect(() => {
         //subcategory filtering --->
@@ -67,7 +80,7 @@ function Restres (){
     return(
         <>
             <div className="restres">
-                <Link to='/searching' className="search--bar" style={{ textDecoration: 'none' }}>
+                <Link to='/home/searching' className="search--bar" style={{ textDecoration: 'none' }}>
                     <div className="searchbox">
                         <FontAwesomeIcon icon={faSearch} aria-hidden="true" />
                         <input 
@@ -77,7 +90,18 @@ function Restres (){
                         />
                     </div>
                 </Link>      
-                <div className="restinfo"></div>
+                <div className="restinfo">
+                    <div className="restname">{rest[0]?.name}</div>
+                    <div className="restcuisine">{rest[0]?.cuisine}</div>
+                    <div className="reststats">
+                        <div className="restpricing">{rest[0]?.pricing}</div>
+                        <div className="restrating">
+                            <div className="rating">{rest[0]?.rating}</div>
+                            <FontAwesomeIcon icon={faStar} aria-hidden="true" />
+                        </div>
+                    </div>
+                    
+                </div>
                 <div className="restmenu">
                     <div className="restcat">
                         {cat.map((data, idx) => (

@@ -1,16 +1,17 @@
-import React from 'react';
+import {React} from 'react';
 import './catOption.css';
-import {useDispatch} from 'react-redux';
+import {useSelector,useDispatch} from 'react-redux';
 import {getactivecat} from '../../actions/index';
 
 function CatOption(params) {
+    const activecat=useSelector(state=>state.activeCategory);
     const category = params.params;
     const dispatch = useDispatch();
     return (
         <div
         onClick={()=>{
-            dispatch(getactivecat(category))
-        }} className="catOption">
+            dispatch(getactivecat(category));
+        }} className={(activecat!==category)?"catOption":"catOption active"}>
             {category}
         </div>
     )
