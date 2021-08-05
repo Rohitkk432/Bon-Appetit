@@ -1,12 +1,17 @@
-import React from 'react';
+import {React,useState} from 'react';
 import './subcat.css';
 import {useSelector} from 'react-redux';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleUp, faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
 import Dishres from './dishres';
 
 function Subcat(params) {
     const subcategory=params.params;
     const dishes = useSelector(state=>state.dishes);
+    const [subcatexp,setSubcatexp]=useState(true);
+
+    //NEEDS FIXING
 
     const filterdishes=[];
 
@@ -22,12 +27,20 @@ function Subcat(params) {
 
     return (
         <div className="subcat">
-            <div className="subcatname">
-                {subcategory}
+            <div className="subcatheading">
+                <div className="subcatname">{subcategory}</div>
+                <FontAwesomeIcon
+                onClick={()=>{
+                    setSubcatexp(!subcatexp)
+                }}
+                className='subcat-expand'icon={(subcatexp)?faAngleUp:faAngleDown} aria-hidden="true" />
             </div>
-            {filterdishes.map((data, idx) => (
-                <Dishres {...data} key={idx} />
-            ))}
+            <div className={(subcatexp)?"disheslist":"disheslist collapse"}>
+                {filterdishes.map((data, idx) => (
+                    <Dishres {...data} key={idx} />
+                ))}
+            </div>
+            
         </div>
     )
 };

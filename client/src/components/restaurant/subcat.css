@@ -8,7 +8,15 @@
     margin-top: 1rem;
     margin-left: 3rem;
 }
-.subcatname {
+.subcat-expand {
+    position: absolute;
+    top: 3px;
+    right: 1rem;
+    color: white;
+    font-size: x-large;
+}
+.subcatheading {
+    position: relative;
     width: 90%;
     height: 2rem;
     display: flex;
@@ -17,4 +25,7 @@
     border: palevioletred solid 2px;
     background: linear-gradient(to right, rgba(247, 145, 0, 0.8), rgb(254, 172, 58, 0.8));
     border-radius: 1rem;
+}
+.collapse {
+    display: none;
 }

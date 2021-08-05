@@ -1,7 +1,7 @@
 import {React} from 'react';
 import './customizationbox.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlus, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { faTimes, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 function Customizationbox(params) {
     const [customModal,setCustomModal]=params.modal;
@@ -30,7 +30,7 @@ function Customizationbox(params) {
                     <div key={idx} className='custombox'>
                         <div className="customizationname">{__data.name}</div>
                         <div className="customizationprice">{__data.price}</div>
-                        <FontAwesomeIcon className='plus-icon'icon={faPlus} aria-hidden="true" />
+                        <input className="customSelect" type="radio" name="customization1" id={idx}/>
                     </div>
                 )})
             }
@@ -41,10 +41,16 @@ function Customizationbox(params) {
                     <div key={idx} className='custombox'>
                         <div className="customizationname">{__data.name}</div>
                         <div className="customizationprice">{__data.price}</div>
-                        <FontAwesomeIcon className='plus-icon'icon={faPlus} aria-hidden="true" />
+                        <input className="customSelect" type="checkbox" name="customization2" id={idx}/>
                     </div>
                 )})
             }
+            <div className="addtocart-btn">
+                <div className="btn-descrip">Add to Cart</div>
+                <div className="cart-icon">
+                    <FontAwesomeIcon icon={faShoppingCart} aria-hidden="true" />
+                </div>
+            </div>
         </div>
     )
 };
