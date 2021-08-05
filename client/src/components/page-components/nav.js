@@ -23,9 +23,11 @@ function Nav (){
                     <div className="navIcon">
                         <FontAwesomeIcon className="icons" icon={faMotorcycle} aria-hidden="true" />
                     </div>
-                    <div className="navIcon">
-                        <FontAwesomeIcon className="icons" icon={faSignOutAlt} aria-hidden="true" />
-                    </div>
+                    <Link to='/' style={{ textDecoration: 'none' }}>
+                        <div className="navIcon">
+                            <FontAwesomeIcon className="icons" icon={faSignOutAlt} aria-hidden="true" />
+                        </div>
+                    </Link>
                 </div>
             </div>
         </>

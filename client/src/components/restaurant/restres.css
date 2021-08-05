@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+input:focus {
+    outline: none;
+}
+
 .searchbar {
     display: flex;
     justify-content: flex-start;
