@@ -11,8 +11,6 @@ function Subcat(params) {
     const dishes = useSelector(state=>state.dishes);
     const [subcatexp,setSubcatexp]=useState(true);
 
-    //NEEDS FIXING
-
     const filterdishes=[];
 
     dishes.filter((_data)=>{
@@ -44,5 +42,4 @@ function Subcat(params) {
         </div>
     )
 };
-
 export default Subcat;

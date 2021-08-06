@@ -4,14 +4,23 @@
     box-sizing: border-box;
 }
 .customizationbox {
-    height: 90vh;
-    width: 35vw;
     position: fixed;
-    left: 32.5vw;
-    top: 5vh;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.custom-box {
+    position: absolute;
+    height: 30rem;
+    width: 25rem;
     background-color: rgba(247, 145, 0, 0.8);
     border: black solid 2px;
-    z-index: 4;
+    z-index: 5;
     border-radius: 20px;
     display: flex;
     justify-content: flex-start;
@@ -41,15 +50,15 @@
 }
 .dishdescrip {
     width: 90%;
-    margin-top: 10px;
-    padding: 10px;
+    margin-top: 5px;
+    padding: 5px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.8);
 }
 .customname {
     height: 2rem;
     width: 80%;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     border-radius: 1rem;
     background: white;
     border: black solid 2px;
@@ -58,13 +67,19 @@
     align-items: center;
     text-align: center;
 }
+.customwindow {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .custombox {
     height: 1.5rem;
     width: 70%;
-    margin-top: 10px;
+    margin-top: 5px;
     border-radius: 1rem;
     background: whitesmoke;
-    /* border: black solid 1px; */
     display: flex;
     justify-content: space-between;
     align-items: center;

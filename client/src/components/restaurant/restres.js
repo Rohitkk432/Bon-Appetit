@@ -19,7 +19,7 @@ function Restres (){
     const [cat,setCat]=useState([]);
     const [subcat,setSubcat]=useState([]);
     const [rest,setRest]=useState([]);
-
+    const [rand,setRand]=useState(4);
 
     useEffect(() => {
         //category filtering --->
@@ -74,6 +74,7 @@ function Restres (){
             }
         })
         setSubcat(subcategories);
+        setRand(rand=>rand+rand);
 
     },[dishes,activeCategory]);
 
@@ -110,7 +111,7 @@ function Restres (){
                     </div>
                     <Scrollbars style={{ width: "70%", height: "95%" }}>
                         {subcat.map((data, idx) => (
-                            <Subcat params={data} key={idx} />
+                            <Subcat params={data} key={idx+rand}/>
                         ))}
                     </Scrollbars>
                 </div>
