@@ -26,10 +26,24 @@ export const getcustomcat = (customcat) => {
     }
 }
 
+export const getalluser = (users) => {
+    return{
+        type: 'GETALLUSERS',
+        payload: users
+    }
+}
+
 export const getrestinmenu = (restid) => {
     return{
         type: 'CURRENTREST',
         payload: restid
+    }
+}
+
+export const getcurrentuser = (currentuser) => {
+    return{
+        type: 'CURRENTUSER',
+        payload: currentuser
     }
 }
 

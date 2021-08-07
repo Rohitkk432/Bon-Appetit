@@ -50,25 +50,3 @@
     /* text-align: center; */
     margin-bottom: 1rem;
 }
-.inputbox {
-    height: 3rem;
-    width: 18rem;
-    border-radius: 1.5rem;
-    padding: 1rem;
-    margin-bottom: 1rem;
-}
-input:focus {
-    outline: none;
-}
-.loginbtn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 3rem;
-    width: 14rem;
-    background-color: orange;
-    border: palevioletred solid 2px;
-    border-radius: 1.5rem;
-    color: white;
-    font-size: x-large;
-}

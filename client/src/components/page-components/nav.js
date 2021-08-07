@@ -1,8 +1,9 @@
 import React from 'react';
 import "./nav.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faClipboardList, faHeart, faMotorcycle, faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faClipboardList, faHeart, faMotorcycle} from '@fortawesome/free-solid-svg-icons';
 import {Link} from 'react-router-dom';
+import SignoutButtton from './signoutbutton';
 
 function Nav (){
     return(
@@ -23,11 +24,9 @@ function Nav (){
                     <div className="navIcon">
                         <FontAwesomeIcon className="icons" icon={faMotorcycle} aria-hidden="true" />
                     </div>
-                    <Link to='/' style={{ textDecoration: 'none' }}>
-                        <div className="navIcon">
-                            <FontAwesomeIcon className="icons" icon={faSignOutAlt} aria-hidden="true" />
-                        </div>
-                    </Link>
+
+                    {/* need to shift signout btn this to somewhere else */}
+                    <SignoutButtton />
                 </div>
             </div>
         </>
