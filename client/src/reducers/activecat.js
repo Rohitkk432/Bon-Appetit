@@ -1,4 +1,4 @@
-const activecatReducer = (state='Ice Creams',action) => {
+const activecatReducer = (state='',action) => {
     switch(action.type){
         case 'CURRENTCAT':
             return action.payload

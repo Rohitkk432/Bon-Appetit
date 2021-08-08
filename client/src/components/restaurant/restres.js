@@ -52,8 +52,9 @@ function Restres (){
         setRest(_rest);
 
         //setting active cat so previous active cat will not be displayed when opening restaurant
-        dispatch(getactivecat(categories[0]))
-
+        if(categories[0]){
+            dispatch(getactivecat(categories[0]));
+        }
     },[dishes,rests,restId,dispatch]);
 
     useEffect(() => {
