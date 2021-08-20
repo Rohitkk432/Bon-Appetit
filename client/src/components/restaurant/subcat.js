@@ -1,6 +1,6 @@
 import {React,useState} from 'react';
 import './subcat.css';
-import {useSelector} from 'react-redux';
+// import {useSelector} from 'react-redux';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleUp, faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
@@ -8,7 +8,8 @@ import Dishres from './dishres';
 
 function Subcat(params) {
     const subcategory=params.params;
-    const dishes = useSelector(state=>state.dishes);
+    const dishes = params.dishes;
+    // const dishes = useSelector(state=>state.dishes);
     const [subcatexp,setSubcatexp]=useState(true);
 
     const filterdishes=[];

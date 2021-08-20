@@ -1,12 +1,12 @@
-import React from 'react';
+import {React} from 'react';
 import "./sideTab.css";
+import Orderslist from '../orders/orderslist';
 
 function SideTab (){
     return(
-        <>
-            <div className="sideTab">
-            </div>
-        </>
+        <div className="sideTab">
+            <Orderslist/>
+        </div>
     )
 }
 

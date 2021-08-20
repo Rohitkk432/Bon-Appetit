@@ -1,4 +1,4 @@
-import {React,useEffect,useState} from 'react';
+import {React,useEffect,useState,useCallback} from 'react';
 import "./restres.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faStar } from '@fortawesome/free-solid-svg-icons';
@@ -9,24 +9,28 @@ import CatOption from './catOption';
 import {useSelector, useDispatch} from 'react-redux';
 import {getactivecat} from '../../actions/index';
 
+import axios from 'axios';
+
 function Restres (){
-    const dishes = useSelector(state => state.dishes);
-    const restId = useSelector(state => state.restId);
-    const rests = useSelector(state => state.rests);
-    const activeCategory = useSelector(state => state.activeCategory);
+    // const dishes = useSelector(state => state.dishes);
+    const [restId] =useState(useSelector(state => state.restId));
+    // const rests = useSelector(state => state.rests);
+    const [activeCategory] = useState(useSelector(state => state.activeCategory));
     const dispatch = useDispatch();
+
+    const [rests,setRests]=useState([]);
+    const [dishes,setDishes]=useState([]);
 
     const [cat,setCat]=useState([]);
     const [subcat,setSubcat]=useState([]);
     const [rest,setRest]=useState([]);
     const [rand,setRand]=useState(4);
 
-    useEffect(() => {
-        //category filtering --->
+    //functions---------------------------------------------------
+    const CategoryFilter= useCallback((data,restid)=>{
         const categories=[];
-        const _rest=[];
-        dishes.filter((_data)=>{
-            if (_data.restaurantid === restId){
+        data.filter((_data)=>{
+            if (_data.restaurantid === restid){
                 if (!categories.includes(_data.category)){
                     categories.push(_data.category);
                     return 0;
@@ -38,9 +42,20 @@ function Restres (){
             else{
                 return 0;
             }
-        })
-        rests.filter((_data)=>{
-            if (_data.id === restId){
+        });
+        setCat(categories);
+
+        //setting active cat so previous active cat will not be displayed when opening restaurant
+
+        if(categories[0]){
+            dispatch(getactivecat(categories[0]));
+        }
+    },[dispatch]);
+
+    function RestFilter(data,restid){
+        const _rest=[];
+        data.filter((_data)=>{
+            if (_data.id === restid){
                 _rest.push(_data);
                 return 0;
             }
@@ -48,20 +63,13 @@ function Restres (){
                 return 0;
             }
         })
-        setCat(categories);
         setRest(_rest);
+    }
 
-        //setting active cat so previous active cat will not be displayed when opening restaurant
-        if(categories[0]){
-            dispatch(getactivecat(categories[0]));
-        }
-    },[dishes,rests,restId,dispatch]);
-
-    useEffect(() => {
-        //subcategory filtering --->
+    const SubcatFilter= useCallback((data,activecategory)=>{
         const subcategories=[];
-        dishes.filter((_data)=>{
-            if (_data.category === activeCategory){
+        data.filter((_data)=>{
+            if (_data.category === activecategory){
                 if (!subcategories.includes(_data.subcategory)){
                     subcategories.push(_data.subcategory);
                     return 0;
@@ -76,8 +84,75 @@ function Restres (){
         })
         setSubcat(subcategories);
         setRand(rand=>rand+rand);
+    },[])
 
-    },[dishes,activeCategory]);
+    //-----------------------------------------------------------------
+
+    useEffect(()=>{
+
+        async function fetchData(){
+            
+            if (rests.length===0 && dishes.length===0){
+                let restid;
+
+                await axios.get(`http://localhost:5000/restaurant`)
+                .then((res)=> res.data)
+                .then((res)=>{
+                    setRests(res);
+                    if(restId){
+                        RestFilter(res,restId);
+                    }
+                    else{
+                        restid=parseInt(localStorage.getItem("restId"));
+                        RestFilter(res,parseInt(localStorage.getItem("restId")));
+                    }
+                })
+                .catch((err)=>console.log(err));
+
+                await axios.get(`http://localhost:5000/dishes`)
+                .then((res)=> res.data)
+                .then((res)=>{
+                    setDishes(res);
+                    if(restId){
+                        CategoryFilter(res,restId);
+                    }
+                    else{
+                        CategoryFilter(res,restid);
+                        SubcatFilter(dishes,localStorage.getItem("activeCategory"));
+                    }
+                })
+                .catch((err)=>console.log(err));
+            }
+            else if(activeCategory!==""){
+                console.log("entered else");
+                SubcatFilter(dishes,activeCategory);
+            }
+
+        }
+
+        fetchData();
+
+    },[CategoryFilter,restId,activeCategory,SubcatFilter,dishes,rests])
+
+    
+
+    // useEffect(() => {
+
+    //     console.log(dishes);
+    //     console.log(rests);
+
+    //     CategoryFilter(dishes,restId);
+
+    //     RestFilter(rests,restId);
+
+    // },[dishes,rests,restId,dispatch,CategoryFilter]);
+
+    // useEffect(() => {
+    //     //subcategory filtering --->
+    //     SubcatFilter(dishes,activeCategory)
+    //     setRand(rand=>rand+rand);
+
+    // },[dishes,activeCategory,SubcatFilter]);
 
     return(
         <>
@@ -112,7 +187,7 @@ function Restres (){
                     </div>
                     <Scrollbars style={{ width: "70%", height: "95%" }}>
                         {subcat.map((data, idx) => (
-                            <Subcat params={data} key={idx+rand}/>
+                            <Subcat params={data} key={idx+rand} dishes={dishes}/>
                         ))}
                     </Scrollbars>
                 </div>

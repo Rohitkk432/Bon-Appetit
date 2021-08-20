@@ -43,6 +43,16 @@ router.get('/restaurant',async (req,res)=>{
     }
 });
 
+//get orders table
+router.get('/orders',async (req,res)=>{
+    try {
+        const info = await pool.query("SELECT * FROM orders;");
+        res.json(info.rows);
+    } catch (err) {
+        console.error(err.message);
+    }
+});
+
 //adding order
 router.post('/orders',async (req,res)=>{
     try {

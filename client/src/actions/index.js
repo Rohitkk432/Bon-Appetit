@@ -33,6 +33,14 @@ export const getalluser = (users) => {
     }
 }
 
+export const getorder = (orders) => {
+    return{
+        type: 'GETORDER',
+        payload: orders
+    }
+}
+
+
 export const getrestinmenu = (restid) => {
     return{
         type: 'CURRENTREST',
