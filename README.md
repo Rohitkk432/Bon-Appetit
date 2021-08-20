@@ -79,7 +79,7 @@ $ cd Bon-Appetit
 3. Used PostgreSQL here which i was well aquainted with but wanted to try something new so tried using MERNG (graphql with MERN) with a project started from scratch which can be found here -- https://github.com/Rohitkk432/Itadakimasu.git 
 
 ## Things Played around with
-1. Tried using react-redux with thunk for fetching tables on page load . 
+1. Tried using react-redux with thunk (for async requests) for fetching all tables on login. 
 
 ## Snapshots
 
