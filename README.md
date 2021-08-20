@@ -74,7 +74,7 @@ $ cd Bon-Appetit
 
 
 ## Things Learned
-1. Learned React-Redux tried to fetch all data tables only once at start and filter it in frontend.
+1. Learned React-Redux tried to fetch all data tables only once at start , store it in redux-states and filter it in frontend.
 2. Came to conclusion that react-redux is good but has too much boilerplate if used extensively and there is a delay if reloaded a page and it results in crashing or page.
 3. Used PostgreSQL here which i was well aquainted with but wanted to try something new so tried using MERNG (graphql with MERN) with a project started from scratch which can be found here -- https://github.com/Rohitkk432/Itadakimasu.git 
 
