@@ -1,3 +1,5 @@
+<img width="100" alt="app-logo" src="https://res.cloudinary.com/rohitkk432/image/upload/v1629486251/Bon-Appetit_logo_o3f4ai.png">
+
 # Bon-Appetit
 DevSoc Project for Core reviews
 
