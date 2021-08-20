@@ -84,6 +84,19 @@ $ cd Bon-Appetit
 ## Snapshots
 
 ### Login Page
+![image](https://user-images.githubusercontent.com/74586376/130281030-3f5b33e6-aa87-418f-ad5f-c200f00413a0.png)
+
+### Home Page ((with ordered things on right tab))
+![image](https://user-images.githubusercontent.com/74586376/130281101-81f05f15-95ab-490f-9613-153c39fb3212.png)
+
+### Search Page
+![image](https://user-images.githubusercontent.com/74586376/130281204-eafeb343-69a5-437d-8765-56174788f6b7.png)
+
+### Restaurant Page
+![image](https://user-images.githubusercontent.com/74586376/130281299-ccbaa863-8f72-4bd8-91a1-f6b5656e6195.png)
+
+### Custimization modal
+![image](https://user-images.githubusercontent.com/74586376/130281382-779278dc-c3bc-4657-9237-f1a7d37c4bf7.png)
 
 ### Social Media
 
