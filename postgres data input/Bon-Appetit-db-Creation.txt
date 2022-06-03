@@ -1,0 +1,49 @@
+Table creation in ProstgreSQL for Bon-Appetit
+
+CREATE TABLE restaurants(
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(50),
+	location VARCHAR(50),
+	cuisine VARCHAR(200),
+	timeopen INTEGER,
+	timeclose INTEGER,
+	rating FLOAT,
+	pricing VARCHAR(100)
+);
+CREATE TABLE customcategory(
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(50)
+);
+CREATE TABLE customization(
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(50),
+	price INTEGER,
+	customcategoryid INTEGER REFERENCES customcategory(id)
+);
+CREATE TABLE dish(
+	id SERIAL PRIMARY KEY,
+	restaurantid INTEGER REFERENCES restaurants(id),
+	name VARCHAR(50),
+	baseprice INTEGER,
+	description VARCHAR(400),
+	category VARCHAR(100),
+	subcategory VARCHAR(100),
+	customcategoryid1 INTEGER REFERENCES customcategory(id),
+	customcategoryid2 INTEGER REFERENCES customcategory(id)
+);
+CREATE TABLE users(
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(200),
+	email VARCHAR(200) UNIQUE,
+	address VARCHAR(1000)
+);
+CREATE TABLE orders(
+	id SERIAL PRIMARY KEY,
+	userid INTEGER REFERENCES users(id),
+	dishid INTEGER REFERENCES dish(id),
+	customizationId1 INTEGER REFERENCES customization(id),
+	customizationId2 INTEGER REFERENCES customization(id),
+	baseprice INTEGER,
+	finalprice INTEGER,
+	status VARCHAR(200)
+);
