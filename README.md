@@ -3,7 +3,6 @@
 # Bon-Appetit
 DevSoc Project for Core reviews
 -RohitKodam
-0x746C4e4a32EF13782714baAdAC1b83139981C5Ac
 
 ## About
 Food delivery website based in Goa.
