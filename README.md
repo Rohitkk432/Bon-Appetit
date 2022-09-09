@@ -2,7 +2,7 @@
 
 # Bon-Appetit
 DevSoc Project for Core reviews
-- RohitKodam
+- RohitKodam (unfinished)
 
 ## About
 Food delivery website based in Goa.
