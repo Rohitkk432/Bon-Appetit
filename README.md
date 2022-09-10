@@ -4,9 +4,6 @@
 DevSoc Project for Core reviews
 - RohitKodam (unfinished)
 - might migrate DB to NoSQL
-- or use firebase to entirely elimante backend and hosting problem
-- Also can try GraphQL using alternative of firebase
-- hide all sensitive credentials using .env .env.local .env.dev .env.prod (env variables)
 
 ## About
 Food delivery website based in Goa.
