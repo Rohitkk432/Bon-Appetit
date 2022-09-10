@@ -3,6 +3,7 @@
 # Bon-Appetit
 DevSoc Project for Core reviews
 - RohitKodam (unfinished)
+- might migrate DB to NoSQL
 
 ## About
 Food delivery website based in Goa.
