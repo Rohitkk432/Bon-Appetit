@@ -2,7 +2,6 @@
 
 # Bon-Appetit
 DevSoc Project for Core reviews
-something hellow
 
 ## About
 Food delivery website based in Goa.
